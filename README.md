@@ -53,11 +53,10 @@ realUserStatus
 * Unknown
 * Unsupported
 只有第一次登入時會回傳結果 , 之後無論是重新連結還是換裝置都是 Unknown
-
-
+![image](https://github.com/WeiTsungCheng/Sign-In-With-Apple/blob/master/2.png)
 
 2. 驗證用戶
-
+![image](https://github.com/WeiTsungCheng/Sign-In-With-Apple/blob/master/3.png)
 圖解: 客戶端向後台提交 token (identityToken) 和 userID , 後台和 Apple server要 public key 並且用其對用戶的identity token 進行驗證，如果成功返回Refresh token -> 通知客戶端結果
 
 0. Apple signIn 認證順序:
