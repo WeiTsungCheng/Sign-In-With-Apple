@@ -1,5 +1,4 @@
-# Sign-In-With-Apple
-詳細註解 如何使用Sign In With Apple
+# 如何使用 Sign-In-With-Apple
 
 Sign In with Apple
 
