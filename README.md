@@ -27,6 +27,7 @@ https://developer.apple.com/videos/play/wwdc2019/516/
 兩個流程
 
 1. 通過Apple登錄驗證用戶身份
+![image](https://github.com/WeiTsungCheng/Sign-In-With-Apple/blob/master/1.png)
 
 圖解:  客戶端AppID 發起登入請求 -> 要求獲取使用者資訊 -> 驗證使用者並且獲得identityToken-> 回傳使用者fullName, email ,identityToken, user identifier 等資訊(fullName, email只有第一次會回傳)
 
